@@ -10,7 +10,17 @@ const create = (user) => {
     return user
 }
 
+const findById = (id) => {
+    
+
+return usersList.find( user => user.id === id)
+
+
+}
+
+
 module.exports = {
     findAll,
-    create
+    create,
+    findById
 }

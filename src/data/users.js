@@ -7,6 +7,10 @@ const listaUsuarios = [
         id: 2,
         name: "Maria"
     },
+     {
+        id: 3,
+        name: "José"
+    }
 ]
 
 module.exports = listaUsuarios
